@@ -19,7 +19,8 @@ REQUEST_TIMEOUT_SECONDS=25
 
 LOG_LEVEL=INFO
 
-To start the application in localhost you need to run the command 
-    python app.py
+# Run in localhost
+
+python app.py
 
 Required Python version: 3.10.0
