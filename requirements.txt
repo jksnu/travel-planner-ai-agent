@@ -1,0 +1,5 @@
+langgraph
+flask
+dotenv
+requests
+huggingface_hub
