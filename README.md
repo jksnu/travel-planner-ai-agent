@@ -5,6 +5,10 @@ It then finds the weather detail of the source location using open-meteo.com API
 It then finds the traffic and incident details between source and destination using TOMTOM API
 It then utilizes hugging face model to generate the response
 
+# Exposed API
+
+http://127.0.0.1:5000/travel_plans?source_lat=13.1195&source_long=77.5837&destination_lat=12.2958&destination_long=76.6394
+
 You need to use .env file with following data:
 
 # .ENV
