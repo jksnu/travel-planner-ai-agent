@@ -7,12 +7,12 @@ It then utilizes hugging face model to generate the response
 
 You need to use .env file with following data:
 
+# .ENV
+
 HF_API_TOKEN=Your_HuggingFace_Token
 HF_MODEL_ID=mistralai/Mixtral-8x7B-Instruct-v0.1
 TOMTOM_API_KEY=Your_TOMTOM_API_KEY
-# Networking
 REQUEST_TIMEOUT_SECONDS=25
-# Logging
 LOG_LEVEL=INFO
 
 To start the application in localhost you need to run the command 
