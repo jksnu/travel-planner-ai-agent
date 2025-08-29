@@ -23,4 +23,5 @@ LOG_LEVEL=INFO
 
 python app.py
 
-Required Python version: 3.10.0
+# Python version: 
+3.10.0
