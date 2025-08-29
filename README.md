@@ -1,1 +1,21 @@
 # travel-planner-ai-agent
+It is a flask API. I provides below routes and trigger an AI Agent.
+This AI agent receives coordinates of source location and destination location
+It then finds the weather detail of the source location using open-meteo.com API
+It then finds the traffic and incident details between source and destination using TOMTOM API
+It then utilizes hugging face model to generate the response
+
+You need to use .env file with following data:
+
+HF_API_TOKEN=Your_HuggingFace_Token
+HF_MODEL_ID=mistralai/Mixtral-8x7B-Instruct-v0.1
+TOMTOM_API_KEY=Your_TOMTOM_API_KEY
+# Networking
+REQUEST_TIMEOUT_SECONDS=25
+# Logging
+LOG_LEVEL=INFO
+
+To start the application in localhost you need to run the command 
+    python app.py
+
+Required Python version: 3.10.0
